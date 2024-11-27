@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(236, 212, 167);
+}
+header{
+    background-color: crimson;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+.container{
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+.card{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+.card-header{
+    background-color: crimson !important;
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card-body{
+    padding: 1rem;
+}
+table{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+table th, table td{
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: rgb(31, 219, 31);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.btn:hover{
+    background-color: rgb(10, 108, 10); 
+}
+.btn-danger{
+    background-color: red;
+}
+.btn-danger:hover{
+    background-color: rgb(173, 14, 14);
+}
